@@ -18,6 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="C"
+            android:fontFamily="@font/g_light"
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -31,6 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="()"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -44,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="%"
+            android:fontFamily="@font/g_light"
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -57,6 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="/"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -70,6 +76,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="7"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -83,6 +91,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="8"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -96,6 +106,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="9"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -109,6 +121,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="X"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -124,6 +138,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="4"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -137,6 +153,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="5"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -150,6 +168,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="6"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -163,6 +183,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="-"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -178,6 +200,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="1"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -191,6 +215,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="2"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -204,6 +230,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="3"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -216,6 +244,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="+"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -229,6 +259,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="0"
+            android:fontFamily="@font/g_light"
+
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorPrimaryDark"
@@ -242,6 +274,8 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="."
+            android:fontFamily="@font/g_light"
+
             android:layout_columnSpan="2"
             android:textSize="25sp"
             android:textColor="@color/white"
@@ -257,6 +291,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="="
+            android:fontFamily="@font/g_light"
             android:textSize="25sp"
             android:textColor="@color/white"
             android:background="@color/colorAccent"
