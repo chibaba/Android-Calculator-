@@ -3,12 +3,13 @@ package com.example.calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btnPlus, btnMultiply,btnDivision, btnSubtraction, btnEqual, btnClear, btnDot, btnBracket;
+    Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btnPlus, btnMultiply,btnDivision, btnPercentage, btnSubtraction, btnEqual, btnClear, btnDot, btnBracket;
     TextView tvInput, tvOutput;
     String process;
 
@@ -37,6 +38,20 @@ public class MainActivity extends AppCompatActivity {
         btnMultiply = findViewById(R.id.btnMultiply);
         btnSubtraction = findViewById(R.id.btnSubtraction);
         btnPlus = findViewById(R.id.btnPlus);
+        btnEqual = findViewById(R.id.btnPlus);
+        btnPercentage = findViewById(R.id.btnPercentage);
+
+        tvInput = findViewById(R.id.tvInput);
+        tvOutput= findViewById(R.id.tvOutput);
+
+        btnClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public  void onClick(View v) {
+                tvInput.setText("");
+                tvOutput.setText("");
+            }
+
+        }
 
 
 
