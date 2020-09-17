@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:gravity="end"
+        android:fontFamily="@font/g_light"
+
         android:textColor="@color/white"
         android:background="@color/black"
         android:padding="10dp"
@@ -21,6 +23,8 @@
         android:layout_height="wrap_content"
         android:textSize="60sp"
         android:gravity="end"
+        android:fontFamily="@font/g_light"
+
         android:textColor="@color/white"
         android:background="@color/black"
         android:padding="10dp"
