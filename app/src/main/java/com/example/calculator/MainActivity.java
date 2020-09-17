@@ -139,6 +139,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 process = tvInput.getText().toString();
+
+                process = process.replaceAll("x", "*");
+                process = process.replaceAll("%", "/100")
                 tvInput.setText(process + "+");
             }
         });
@@ -197,9 +200,6 @@ public class MainActivity extends AppCompatActivity {
                 tvInput.setText(process + "-");
             }
         });
-
-
-
 
 
     }
