@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         btnMultiply = findViewById(R.id.btnMultiply);
         btnSubtraction = findViewById(R.id.btnSubtraction);
         btnPlus = findViewById(R.id.btnPlus);
-        btnEqual = findViewById(R.id.btnPlus);
+        btnEqual = findViewById(R.id.btnEqual);
         btnPercentage = findViewById(R.id.btnPercentage);
 
         tvInput = findViewById(R.id.tvInput);
@@ -139,6 +139,51 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 process = tvInput.getText().toString();
                 tvInput.setText(process + "+");
+            }
+        });
+
+        btnMultiply.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "x");
+            }
+        });
+
+        btnDot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + ".");
+            }
+        });
+        btnBracket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "()");
+            }
+        });
+
+        btnDivision.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "/");
+            }
+        });
+        btnPercentage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "%");
+            }
+        });
+        btnSubtraction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "-");
             }
         });
 
