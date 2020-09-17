@@ -15,7 +15,7 @@
 
         android:textColor="@color/black"
         android:background="@color/white"
-        android:padding="10dp"
+        android:padding="20dp"
         android:text="23445"/>
 
     <TextView
