@@ -66,6 +66,21 @@ public class MainActivity extends AppCompatActivity {
                 tvInput.setText(process + "1");
             }
         });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + 1);
+            }
+        });
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + 1);
+            }
+        });
 
 
 
