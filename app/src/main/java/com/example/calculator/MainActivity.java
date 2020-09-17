@@ -51,9 +51,19 @@ public class MainActivity extends AppCompatActivity {
                 tvOutput.setText("");
             }
 
-        }
+        });
+        btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "0");
+            }
+        });
 
 
 
     }
+
+
+
 }
