@@ -59,6 +59,13 @@ public class MainActivity extends AppCompatActivity {
                 tvInput.setText(process + "0");
             }
         });
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                process = tvInput.getText().toString();
+                tvInput.setText(process + "1");
+            }
+        });
 
 
 
