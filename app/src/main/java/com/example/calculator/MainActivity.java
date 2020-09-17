@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btnPlus, btnMultiply,btnDivision, btnPercentage, btnSubtraction, btnEqual, btnClear, btnDot, btnBracket;
     TextView tvInput, tvOutput;
     String process;
+    boolean checkBracket = false;
 
 
 
@@ -160,8 +161,18 @@ public class MainActivity extends AppCompatActivity {
         btnBracket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "()");
+
+                if (checkBracket) {
+                    process = tvInput.getText().toString();
+                    tvInput.setText(process + ")");
+                    checkBracket = false;
+
+                } else{
+                    process = tvInput.getText().toString();
+                    tvInput.setText(process +  "(");
+                    checkBracket =  true;
+                }
+
             }
         });
 
