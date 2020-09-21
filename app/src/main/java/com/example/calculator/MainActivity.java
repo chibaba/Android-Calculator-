@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 process = tvInput.getText().toString();
-                tvInput.setText(process + 1);
+                tvInput.setText(process + "2");
             }
         });
 
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 process = tvInput.getText().toString();
-                tvInput.setText(process + 1);
+                tvInput.setText(process + "3" );
             }
         });
         btn4.setOnClickListener(new View.OnClickListener() {
@@ -132,14 +132,14 @@ public class MainActivity extends AppCompatActivity {
                 tvInput.setText(process + "9");
             }
         });
-        btnEqual.setOnClickListener(new View.OnClickListener() {
+        btnPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 process = tvInput.getText().toString();
-                tvInput.setText(process + "=");
+                tvInput.setText(process + "+");
             }
         });
-        btnPlus.setOnClickListener(new View.OnClickListener() {
+        btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 process = tvInput.getText().toString();
